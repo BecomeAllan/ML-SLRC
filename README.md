@@ -1,8 +1,8 @@
-# RevisaoSistematica
+# Automation of Systematic literature reviews classifications
 
 ## Objective
 
-The present repository is an implementation of First-order MAML with BERT for Systematic Literature Review. 
+The present repository is an implementation of First-order MAML with SCIBERT for Systematic Literature Review Classification. 
 The main objective is to implement few-shot classification by training our model with multiple cycles of limited datasets
 sourced from high-resource domains. Therefore, the model will acheive a good initialization of weights in order to perform
 few-shot classification from low-resource domains. Our model is a direct adaptation of `FONTE mailong25` paired with `fonte sciBERT`
@@ -17,7 +17,4 @@ for the purpose of Systematic Literature Review.
 
 ## Datasets
 
-The 64 topic-agnostic labeled datasets proposed can be downloaded from the `PreTest_Meta_learning.ipynb` notebook.
-Alternatively, download here (upload to gitHub). Make sure all data is in a `SLR_data` folder. 
-
-All data treatment is done in the `PreTest_Meta_learning.ipynb` notebook.
+The 64 pre-processed topic-agnostic labeled datasets proposed can be downloaded from the `Meta_learning_EFL.ipynb` notebook and make sure all data is in a `SLR_data` folder. Alternatively, the originals datasets can be downloaded in [dropbox source](https://www.dropbox.com/sh/bs7eawof65l39ny/AAB_WucrCX04o-IAPjtYLMlva?dl=0). 
