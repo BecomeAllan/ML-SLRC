@@ -11,6 +11,7 @@ To use the model, the folder [Application](https://github.com/BecomeAllan/ML-SLR
 ## Notebook requirements (versions used)
 
 * python (3.7.13)
+* pytorch (1.11.0)
 * transformers (4.16.2)
 * torchmetrics (0.8.0)
 * matplotlib (3.5.1)
